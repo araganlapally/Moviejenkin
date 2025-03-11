@@ -10,6 +10,7 @@ public class Main {
 		Movie movie=new Movie();
 		movie.setName("debba debba");
 		movie.setRating(9.9);
+		movie.setHero("kodangal");
 		System.out.println(movie);
 
 	}
