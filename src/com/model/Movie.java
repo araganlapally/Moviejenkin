@@ -5,6 +5,7 @@ public class Movie {
 	
 	private String name;
 	private double rating;
+	private String Hero;
 	public String getName() {
 		return name;
 	}
@@ -17,9 +18,16 @@ public class Movie {
 	public void setRating(double rating) {
 		this.rating = rating;
 	}
+	
+	public String getHero() {
+		return Hero;
+	}
+	public void setHero(String hero) {
+		Hero = hero;
+	}
 	@Override
 	public String toString() {
-		return "Movie [name=" + name + ", rating=" + rating + "]";
+		return "Movie [name=" + name + ", rating=" + rating + ", Hero=" + Hero + "]";
 	}
 	
 	
